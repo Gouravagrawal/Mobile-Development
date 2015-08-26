@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DefaultMenu</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="faq">Faq</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_gesture">GestureActivity</string>
+    <string name="ranklabel">"Song: "</string>
+    
+     <string name="fb_app_id">493653500790834</string>
+    
+     <string name="Search">"SEARCH SONG "</string>
+
+</resources>

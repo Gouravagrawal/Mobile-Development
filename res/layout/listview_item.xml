@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@layout/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+   <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:background="@layout/image_bg"
+        android:layout_marginRight="5dip">
+ 
+        <ImageView
+            android:id="@+id/songplayimage"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:src="@drawable/playsong"/>
+ 
+    </LinearLayout> 
+
+    
+     <!-- Title Of Song-->
+    <TextView
+       android:id="@+id/song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="15dip"
+        android:textStyle="bold"/>
+    
+    
+   <!-- Rightend Arrow -->
+     <ImageView 
+          android:id="@+id/fbsharebutton"
+         android:layout_width="80dip"
+            android:layout_height="60dip"
+        android:src="@drawable/fbshare"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+   
+
+</RelativeLayout>

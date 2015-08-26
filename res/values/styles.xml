@@ -1,0 +1,45 @@
+<resources>
+
+    
+    
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- *************************************Default******************************** -->
+    
+    <!-- Application Default theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    
+    <!-- ************************Custom For Android 2.1 and higher******************************** -->
+    
+    <style name="CustomActionBarTheme"
+            parent="Theme.AppCompat" >
+       <!--  <item name="android:windowActionBarOverlay">true</item> -->
+
+        <!-- Support library compatibility -->
+        <item name="windowActionBarOverlay">true</item>
+               
+    </style>
+
+    <!-- ************************Custom For Android 3.0 and higher******************************** -->
+    
+     <!-- the theme applied to the application or activity -->
+   <!--  <style name="CustomActionBarTheme"
+           parent="@android:style/Theme.Holo">
+        <item name="android:windowActionBarOverlay">true</item>
+    </style> -->
+    
+
+</resources>
